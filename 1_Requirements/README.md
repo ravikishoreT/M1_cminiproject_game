@@ -9,7 +9,7 @@ This game was first introduced  at ancient time,  however there is no evidence  
 
 Terni Lapili was resurfaced in England with the name “Nought and Crosses” in 1864. This resurfaced version is the modern of Tic-Tac-Toe game that people know until this present day.
 
-## Requirements
+## Functional Requirements
 
 # 1.Displaying a 3x3 grid:
    This grid is required to play the Tic-Tac-Toe game. It is on this grid that the two players take turns marking the spaces as X and O.
