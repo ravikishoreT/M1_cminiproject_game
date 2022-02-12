@@ -9,7 +9,7 @@ void disp_matrix(void);
 int main(void)
 {
     char done;
-    printf("This is the game of Tic Tac Toe.\n");
+    printf("This is the game of Tic-Tac-Toe.\n");
     printf("You will be playing against the computer.\n");
     done = ' ';init_matrix();
     do {disp_matrix();
@@ -76,12 +76,12 @@ void get_computer_move(void)
 }
 void disp_matrix(void)
 {
-    int t;
+    int a;
     
-    for(t=0; t<3; t++)
+    for(a=0; a<3; a++)
     {
-        printf(" %c | %c | %c ",matrix[t][0],matrix[t][1], matrix [t][2]);
-        if(t!=2) printf("\n---|---|---\n");
+        printf(" %c | %c | %c ",matrix[a][0],matrix[a][1], matrix [a][2]);
+        if(a!=2) printf("\n---|---|---\n");
         
     }
     printf("\n");
@@ -103,7 +103,7 @@ if(matrix[0][0]==matrix[1][1] &&matrix[1][1]==matrix[2][2])
 return
 matrix[0][0];if(matrix[0][2]==matrix[1][1] &&matrix[1][1]==matrix[2][0])
 return
-matrix[0][2];getch();
+matrix[0][2];
 return ' ';
     
 }
